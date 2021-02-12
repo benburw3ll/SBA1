@@ -6,7 +6,7 @@ Find it on GitHUB https://github.com/benburw3ll/SBA1
 
 HTML
 Use HTML tables <<--Used on many pages, index is a good example-->
-Implement at least two uses for forms - <<!--This is found on contact me page-->
+Implement at least two uses for forms - <<!--This is found on contact me page and about page-->
 Dropped Down Menu <<!--This is found on the contact form and about me --->>
 
 
