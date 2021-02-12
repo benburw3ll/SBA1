@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+	text-align: center;
+	color:white;
+}
+
+table{
+	 margin-left:auto; 
+    margin-right:auto;
+	border: none;
+	color:white;
+	
+}
+table.menu{
+
+ margin-left:auto; 
+    margin-right:auto;
+	border: none;
+	
+}
+table.gallery{
+
+	margin-left:auto; 
+    margin-right:auto;
+	border: none;
+	
+}
+
+table.news{
+	
+	margin-left:auto; 
+    margin-right:auto;
+	border: none;
+}
+
+.button{
+		background-color:black;
+		border:none;
+		color:gray;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #020ef0;
+}
+
+
+.container {
+  margin-left:auto; 
+  margin-right:auto;
+  border: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  width: 50%;
+
+}
+
+.gallery img {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+.gallery img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
